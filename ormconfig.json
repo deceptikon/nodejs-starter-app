@@ -1,0 +1,13 @@
+
+{
+   "type": "sqlite",
+   "database": "./sqlite.db",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/models/*.js"
+   ],
+   "cli": {
+      "entitiesDir": "src/models"
+   }
+}
