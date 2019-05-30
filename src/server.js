@@ -1,6 +1,6 @@
-// import { User } from './models/User.js';
 import 'reflect-metadata';
 import express from 'express';
+import { User } from './models/User.js';
 
 var app = express();
 
